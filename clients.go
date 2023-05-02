@@ -16,7 +16,7 @@ import (
 
 	"github.com/rs/xid"
 
-	"github.com/mochi-co/mqtt/v2/packets"
+	"github.com/sukvojte/mochi-co-mqtt/packets"
 )
 
 const (

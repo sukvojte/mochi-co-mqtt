@@ -7,9 +7,9 @@ package debug
 import (
 	"strings"
 
-	"github.com/mochi-co/mqtt/v2"
-	"github.com/mochi-co/mqtt/v2/hooks/storage"
-	"github.com/mochi-co/mqtt/v2/packets"
+	"github.com/sukvojte/mochi-co-mqtt"
+	"github.com/sukvojte/mochi-co-mqtt/hooks/storage"
+	"github.com/sukvojte/mochi-co-mqtt/packets"
 
 	"github.com/rs/zerolog"
 )

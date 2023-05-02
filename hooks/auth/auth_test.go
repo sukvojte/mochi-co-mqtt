@@ -8,10 +8,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mochi-co/mqtt/v2"
-	"github.com/mochi-co/mqtt/v2/packets"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
+	"github.com/sukvojte/mochi-co-mqtt"
+	"github.com/sukvojte/mochi-co-mqtt/packets"
 )
 
 var logger = zerolog.New(os.Stderr).With().Timestamp().Logger().Level(zerolog.Disabled)

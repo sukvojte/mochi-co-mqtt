@@ -7,9 +7,9 @@ package auth
 import (
 	"testing"
 
-	"github.com/mochi-co/mqtt/v2"
-	"github.com/mochi-co/mqtt/v2/packets"
 	"github.com/stretchr/testify/require"
+	"github.com/sukvojte/mochi-co-mqtt"
+	"github.com/sukvojte/mochi-co-mqtt/packets"
 )
 
 func TestAllowAllID(t *testing.T) {

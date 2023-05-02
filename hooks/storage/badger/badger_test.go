@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mochi-co/mqtt/v2"
-	"github.com/mochi-co/mqtt/v2/hooks/storage"
-	"github.com/mochi-co/mqtt/v2/packets"
-	"github.com/mochi-co/mqtt/v2/system"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
+	"github.com/sukvojte/mochi-co-mqtt"
+	"github.com/sukvojte/mochi-co-mqtt/hooks/storage"
+	"github.com/sukvojte/mochi-co-mqtt/packets"
+	"github.com/sukvojte/mochi-co-mqtt/system"
 	"github.com/timshannon/badgerhold"
 )
 
